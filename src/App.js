@@ -12,16 +12,16 @@ class App extends Component {
               <h1 className="text-xl font-black">My Cute Kittens</h1>
             </div>
             <ul className="flex justify-end">
-              <li>
+              <li className="ml-6 uppercase font-bold">
                 <Link to="/">Home</Link>
               </li>
-              <li>
-                <Link to="/about">About Us</Link>
+              <li className="ml-6 uppercase font-bold">
+                <Link to="/about">About</Link>
               </li>
-              <li>
+              <li className="ml-6 uppercase font-bold">
                 <Link to="/kittens">Kittens</Link>
               </li>
-              <li>
+              <li className="ml-6 uppercase font-bold">
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
