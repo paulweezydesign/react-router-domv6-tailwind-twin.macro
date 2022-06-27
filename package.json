@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel-macro": "*",
+    "@babel/core": "^7.0.0",
+    "@emotion/react": "^11.0.0-rc.0",
+    "@emotion/styled": "^11.9.3",
+    "postcss": "^8.0.9",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "6",
+    "tailwindcss": "^3.1.4",
+    "twin.macro": "^2.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
